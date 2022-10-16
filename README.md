@@ -4,6 +4,8 @@
 
 The Weather Radio Mod adds various different kind of weather and AM/FM radios into Minecraft for your decorating needs!
 
+This mod is currently unreleased but feel free to build it and try it yourself!
+
 # Models in this mod currently
 
 - Midland WR100 White
