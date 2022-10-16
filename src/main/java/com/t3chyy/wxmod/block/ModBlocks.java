@@ -35,6 +35,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MIDLAND_WR100BNS = registerBlock("midland_wr100bns",
             () -> new BNSWR100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB);
 
+    public static final RegistryObject<Block> UNIDEN_WX100 = registerBlock("uniden_wx100",
+            () -> new UnidenWX100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB);
+
 
     //------------------
 
