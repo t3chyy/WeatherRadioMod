@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "wxmod:block/midland_wr100bns" },
+    "facing=east": { "model": "wxmod:block/midland_wr100bns", "y": 90 },
+    "facing=south": { "model": "wxmod:block/midland_wr100bns", "y": 180 },
+    "facing=west": { "model": "wxmod:block/midland_wr100bns", "y": 270 }
+  }
+}
