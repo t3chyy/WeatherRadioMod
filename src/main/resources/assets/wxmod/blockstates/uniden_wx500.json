@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "wxmod:block/uniden_wx500" },
+    "facing=east": { "model": "wxmod:block/uniden_wx500", "y": 90 },
+    "facing=south": { "model": "wxmod:block/uniden_wx500", "y": 180 },
+    "facing=west": { "model": "wxmod:block/uniden_wx500", "y": 270 }
+  }
+}

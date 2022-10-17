@@ -1,6 +1,18 @@
 {
   "itemGroup.wxmod": "The Weather Radio Mod",
+
   "block.wxmod.midland_wr100": "Midland WR100 White",
   "block.wxmod.midland_wr100bns": "Midland WR100 Black And Silver",
-  "block.wxmod.uniden_wx100": "Uniden Bearcat WX100"
+  "block.wxmod.midland_wr300": "Midland WR300",
+  "block.wxmod.uniden_wx100": "Uniden Bearcat WX100",
+  "block.wxmod.uniden_wx500": "Uniden Bearcat WX500",
+
+  "tooltip.shift": "Press §bSHIFT§r to learn about this radio!",
+
+  "tooltip.wxmod.block.midland_wr100": "§b§oFirst released in 2002 with a 10 year lifespan, \nThe Midland WR100 was one of the most successful \nand common weather radios on the market. \nIt had 5 different variants with changes to the \nfaceplate, LED lights, menu options, etc.",
+  "tooltip.wxmod.block.midland_wr100bns": "§b§oThe Black and Silver is the first and rarest \nvariant of the Midland WR100 that debuted in 2002. \nIt was only produced in clam-shell packaging and only came \nin a V1 or V2 PCB. Black and Silvers were discontinued \n1 year later in 2003.",
+  "tooltip.wxmod.block.midland_wr300": "§b§oFirst introduced in 2002 alongside the WR100, \nIt would go on to be another very popular radio created \nby Midland and contained additional features than the WR100. \nAs of 2022, The Midland WR300 is still manufactured in stores.",
+
+  "tooltip.wxmod.block.uniden_wx500": "§b§oThe WX500 was released \nto consumers in 2002 \naccording to it's user manual. \nIt was manufactured for only 2 years \nbetween 2002-2004, making this radio \na fairly rare find.",
+  "tooltip.wxmod.block.uniden_wx100": "§b§oThe Uniden Bearcat WX100 was first created in 2000, \nthen sold to the market in 2001. It is known for it's volume \nknob on the right, it's orange LED, and \nit's siren. It is also pretty rare to obtain \n(unless you wanna pay 500 dollars for it)."
 }
