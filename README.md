@@ -10,12 +10,14 @@ This mod is currently unreleased but feel free to build it and try it yourself!
 
 - Midland WR100 White
 - Midland WR100 Black And Silver
+- Midland WR300
 - Uniden Bearcat WX100
+- Uniden Bearcat WX500
 
 # TODO:
 - [ ] Add crafting recipes and parts like tuners, PCBs and more.
 - [ ] Ability to play audio streams like police scanners and NWR channels.
-- [ ] Tooltips containing history about the radio and its rarity.
+- [x] Tooltips containing history about the radio and its rarity.
 - [ ] Radios from different brands like Sangean, Uniden, Reecom, Radioshack, etc.
 
 # Bugs
