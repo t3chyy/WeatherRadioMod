@@ -40,6 +40,10 @@ public class ModBlocks {
             () -> new MidlandWR300(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr300");
 
+    public static final RegistryObject<Block> MIDLAND_WR301 = registerBlock("midland_wr301",
+            () -> new MidlandWR301(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            "tooltip.wxmod.block.midland_wr301");
+
 
     //UNIDEN
     public static final RegistryObject<Block> UNIDEN_WX100 = registerBlock("uniden_wx100",
@@ -50,6 +54,11 @@ public class ModBlocks {
             () -> new UnidenWX500(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
             "tooltip.wxmod.block.uniden_wx500");
 
+
+    //SANGEAN
+    public static final RegistryObject<Block> SANGEAN_CL100 = registerBlock("sangean_cl100",
+            () -> new SangeanCL100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            "tooltip.wxmod.block.sangean_cl100");
 
     //------------------
 

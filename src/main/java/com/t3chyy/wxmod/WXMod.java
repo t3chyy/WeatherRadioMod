@@ -51,8 +51,11 @@ public class WXMod
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR100.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR100BNS.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR300.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR301.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX100.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX500.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SANGEAN_CL100.get(), RenderType.translucent());
+
 
     }
 }
