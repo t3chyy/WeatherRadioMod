@@ -1,20 +1,30 @@
 # The Weather Radio Mod
 
-![This is an image](wxmod.png)
+![The Weather Radio Mod](wxmod.png)
 
 The Weather Radio Mod adds various different kind of weather and AM/FM radios into Minecraft for your decorating needs!
 
-This mod is currently unreleased but feel free to build it and try it yourself!
+This mod is currently only available for 1.18.2, however moving to future versions is planned.
 
-# Models in this mod currently
+Currently the weather radios are not functional and serve as decoration purposes only, however the ability to play Icecast streams and other forms of audio maybe added in future versions.
 
-- Midland WR100 White
-- Midland WR100 Black And Silver
-- Midland WR300
-- Midland WR301
-- Uniden Bearcat WX100
-- Uniden Bearcat WX500
-- Sangean CL-100
+**Curseforge Link Unavailable at this time**
+
+# How to install:
+
+1. Download The Weather Radio Mod from the Releases page.
+
+2. Make sure you download [Minecraft Forge 1.18.2](https://files.minecraftforge.net/net/minecraftforge/forge/index_1.18.2.html).
+
+2. Take the .jar file and move it into your ``mods`` folder in ``.minecraft``, 
+If you don't have a mods folder, create one!
+
+3. Boot up Minecraft and enjoy!
+
+# Screenshots
+![Screenshot](screenshot3.png)
+![Screenshot](screenshot1.png)
+![Screenshot](screenshot2.png)
 
 # TODO:
 - [ ] Add crafting recipes and parts like tuners, PCBs and more.
