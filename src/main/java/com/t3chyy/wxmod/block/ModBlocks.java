@@ -33,41 +33,46 @@ public class ModBlocks {
     //MIDLAND
     public static final RegistryObject<Block> MIDLAND_WR100 = registerBlock("midland_wr100",
             () -> new WR100(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr100");
 
     public static final RegistryObject<Block> MIDLAND_WR100BNS = registerBlock("midland_wr100bns",
             () -> new BNSWR100(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr100bns");
 
     public static final RegistryObject<Block> MIDLAND_WR300 = registerBlock("midland_wr300",
             () -> new MidlandWR300(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr300");
 
     public static final RegistryObject<Block> MIDLAND_WR301 = registerBlock("midland_wr301",
             () -> new MidlandWR301(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr301");
+
+    public static final RegistryObject<Block> MIDLAND_WR300_V0 = registerBlock("midland_wr300_v0",
+            () -> new MidlandWR300V0(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
+            "tooltip.wxmod.block.midland_wr300_v0");
 
 
     //UNIDEN
     public static final RegistryObject<Block> UNIDEN_WX100 = registerBlock("uniden_wx100",
             () -> new UnidenWX100(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.uniden_wx100");
 
     public static final RegistryObject<Block> UNIDEN_WX500 = registerBlock("uniden_wx500",
             () -> new UnidenWX500(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.uniden_wx500");
 
 
     //SANGEAN
     public static final RegistryObject<Block> SANGEAN_CL100 = registerBlock("sangean_cl100",
             () -> new SangeanCL100(BlockBehaviour.Properties.of(Material.METAL)
-                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
+                    .noOcclusion().instabreak()), WXTab.WX_TAB,
             "tooltip.wxmod.block.sangean_cl100");
 
     //------------------
@@ -82,7 +87,7 @@ public class ModBlocks {
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block,
                                                                             CreativeModeTab tab, String tooltipKey) {
         return ModItems.ITEMS.register(name, () -> new BlockItem(block.get(),
-                new Item.Properties().tab(tab)){
+                new Item.Properties().tab(tab).stacksTo(1)){
             @Override
             public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltip, TooltipFlag pFlag) {
                 if(Screen.hasShiftDown()) {

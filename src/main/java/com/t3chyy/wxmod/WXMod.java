@@ -50,8 +50,7 @@ public class WXMod
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("HELLO FROM PREINIT");
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
+        LOGGER.info("WXmod coded by T3chyy");
     }
 
     private void clientSetup(final FMLClientSetupEvent event)
@@ -64,5 +63,6 @@ public class WXMod
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX100.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX500.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SANGEAN_CL100.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR300_V0.get(), RenderType.translucent());
     }
 }
