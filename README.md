@@ -11,8 +11,10 @@ This mod is currently unreleased but feel free to build it and try it yourself!
 - Midland WR100 White
 - Midland WR100 Black And Silver
 - Midland WR300
+- Midland WR301
 - Uniden Bearcat WX100
 - Uniden Bearcat WX500
+- Sangean CL-100
 
 # TODO:
 - [ ] Add crafting recipes and parts like tuners, PCBs and more.
