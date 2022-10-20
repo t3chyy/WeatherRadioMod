@@ -14,12 +14,21 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-// The value here should match an entry in the META-INF/mods.toml file
+/*
+    -----The Weather Radio Mod (WXmod)-----
+    Created by T3chyy
+
+    https://github.com/T3chyyOfficial/WeatherRadioMod
+    https://twitter.com/T3chyyOfficial
+
+    October 19th, 2022
+    ---------------------------------------
+ */
+
 @Mod(WXMod.MOD_ID)
 public class WXMod
 {
     public static final String MOD_ID = "wxmod";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public WXMod()
@@ -55,7 +64,5 @@ public class WXMod
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX100.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX500.get(), RenderType.translucent());
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.SANGEAN_CL100.get(), RenderType.translucent());
-
-
     }
 }

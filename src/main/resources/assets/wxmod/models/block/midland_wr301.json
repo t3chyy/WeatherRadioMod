@@ -3,7 +3,7 @@
 	"texture_size": [64, 64],
 	"textures": {
 		"0": "wxmod:block/midland_wr301",
-		"particle": "minecraft:block/stone"
+		"particle": "wxmod:block/midland_wr301"
 	},
 	"elements": [
 		{

@@ -10,8 +10,8 @@ import net.minecraft.network.chat.TranslatableComponent;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -25,39 +25,49 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, WXMod.MOD_ID);
 
-    //Register blocks
+    /*
+        Registering the radios here
+        Goes in chronological order
+     */
 
     //MIDLAND
     public static final RegistryObject<Block> MIDLAND_WR100 = registerBlock("midland_wr100",
-            () -> new WR100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new WR100(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr100");
 
     public static final RegistryObject<Block> MIDLAND_WR100BNS = registerBlock("midland_wr100bns",
-            () -> new BNSWR100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new BNSWR100(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr100bns");
 
     public static final RegistryObject<Block> MIDLAND_WR300 = registerBlock("midland_wr300",
-            () -> new MidlandWR300(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new MidlandWR300(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr300");
 
     public static final RegistryObject<Block> MIDLAND_WR301 = registerBlock("midland_wr301",
-            () -> new MidlandWR301(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new MidlandWR301(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.midland_wr301");
 
 
     //UNIDEN
     public static final RegistryObject<Block> UNIDEN_WX100 = registerBlock("uniden_wx100",
-            () -> new UnidenWX100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new UnidenWX100(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.uniden_wx100");
 
     public static final RegistryObject<Block> UNIDEN_WX500 = registerBlock("uniden_wx500",
-            () -> new UnidenWX500(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new UnidenWX500(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.uniden_wx500");
 
 
     //SANGEAN
     public static final RegistryObject<Block> SANGEAN_CL100 = registerBlock("sangean_cl100",
-            () -> new SangeanCL100(BlockBehaviour.Properties.copy(Blocks.QUARTZ_BLOCK).noOcclusion()), WXTab.WX_TAB,
+            () -> new SangeanCL100(BlockBehaviour.Properties.of(Material.METAL)
+                    .noOcclusion().strength(0.4f)), WXTab.WX_TAB,
             "tooltip.wxmod.block.sangean_cl100");
 
     //------------------

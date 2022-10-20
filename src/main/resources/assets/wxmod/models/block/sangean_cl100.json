@@ -3,7 +3,7 @@
 	"texture_size": [32, 32],
 	"textures": {
 		"0": "wxmod:block/sangean_cl100",
-		"particle": "minecraft:block/stone"
+		"particle": "wxmod:block/sangean_cl100"
 	},
 	"elements": [
 		{
