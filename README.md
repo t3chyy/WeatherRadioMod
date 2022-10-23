@@ -10,6 +10,7 @@ Currently the weather radios are not functional and serve as decoration purposes
 
 Curseforge Link:
 https://www.curseforge.com/minecraft/mc-mods/the-weather-radio-mod
+
 **For some reason Curseforge disallows mods with the word "Mod" in the name, and for this reason it is called "T3chyy's Weather Radios".**
 
 # How to install:
