@@ -8,7 +8,9 @@ This mod is currently only available for 1.18.2, however moving to future versio
 
 Currently the weather radios are not functional and serve as decoration purposes only, however the ability to play Icecast streams and other forms of audio maybe added in future versions.
 
-**Curseforge Link Unavailable at this time**
+Curseforge Link:
+https://www.curseforge.com/minecraft/mc-mods/the-weather-radio-mod
+**For some reason Curseforge disallows mods with the word "Mod" in the name, and for this reason it is called "T3chyy's Weather Radios".**
 
 # How to install:
 
