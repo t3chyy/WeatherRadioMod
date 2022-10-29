@@ -32,9 +32,11 @@ If you don't have a mods folder, create one!
 # Permissions
 
 **May I use The Weather Radio Mod in my modpack?**
+
 As long as proper credit is given, yes.
 
 **May I build, test or modify the source code provided?**
+
 Yes, so long as you aren't claiming the whole mod as yours.
 
 # TODO:
