@@ -16,10 +16,10 @@ import org.slf4j.Logger;
 
 /*
     -----The Weather Radio Mod (WXmod)-----
-    Created by T3chyy
+    Created by ht
 
-    https://github.com/T3chyyOfficial/WeatherRadioMod
-    https://twitter.com/T3chyyOfficial
+    https://github.com/httpswebsite/WeatherRadioMod
+    https://twitter.com/httpswebs1te
 
     October 19th, 2022
     ---------------------------------------
@@ -34,9 +34,7 @@ public class WXMod
     public WXMod()
     {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
-        // Register the setup method for modloading
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(eventBus);
@@ -50,7 +48,7 @@ public class WXMod
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("WXmod coded by T3chyy");
+        LOGGER.info("WXmod v1.1 coded by ht");
     }
 
     private void clientSetup(final FMLClientSetupEvent event)
