@@ -4,9 +4,9 @@
 
 The Weather Radio Mod adds various different kind of weather and AM/FM radios into Minecraft for your decorating needs!
 
-This mod is currently only available for 1.18.2, however moving to future versions is planned.
+This mod is currently only available for 1.18.2, However, v1.1 will be available on 1.18.2, 1.19.3 & 1.20 when it comes out
 
-Currently the weather radios are not functional and serve as decoration purposes only, however the ability to play Icecast streams and other forms of audio maybe added in future versions.
+**A new and final update is currently in the works, v1.1 will be the last version of the mod until discontinuation, The reason behind this is that I'm leaving the EAS community and all of it's related topics, including weather radio collecting & anything correlated to that genre. This update will leave the mod in a more finished state than what it is currently.**
 
 Curseforge Link:
 https://www.curseforge.com/minecraft/mc-mods/the-weather-radio-mod
@@ -41,9 +41,8 @@ Yes, so long as you aren't claiming the whole mod as yours.
 
 # TODO:
 - [ ] Add crafting recipes and parts like tuners, PCBs and more.
-- [ ] Ability to play audio streams like police scanners and NWR channels.
 - [x] Tooltips containing history about the radio and its rarity.
-- [ ] Radios from different brands like Sangean, Uniden, Reecom, Radioshack, etc.
+- [ ] Radios from different brands like Eton, Reecom, Radioshack, First Alert, etc.
 
 # Bugs
 
