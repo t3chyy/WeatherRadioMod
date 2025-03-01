@@ -1,4 +1,4 @@
-package com.t3chyy.wxmod.block.radios;
+package com.t3chyy.wxmod.radios;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -13,11 +13,11 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class WR100 extends Block {
-    public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
+public class MidlandWR120 extends Block {
 
-    public WR100(Properties properties) {
-        super(properties);
+    public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
+    public MidlandWR120(Properties pProperties) {
+        super(pProperties);
     }
 
     private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 3, 16);
@@ -48,5 +48,4 @@ public class WR100 extends Block {
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING);
     }
-
 }

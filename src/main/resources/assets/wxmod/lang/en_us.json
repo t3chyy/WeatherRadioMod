@@ -6,9 +6,16 @@
   "block.wxmod.midland_wr300": "Midland WR300",
   "block.wxmod.midland_wr301": "Midland WR301",
   "block.wxmod.midland_wr300_v0": "Midland WR300 Version 0",
+  "block.wxmod.midland_wr120_legacy": "Midland WR120",
+  "block.wxmod.midland_wr120": "Midland WR120",
+  "block.wxmod.midland_wr400": "Midland WR400",
+
   "block.wxmod.uniden_wx100": "Uniden Bearcat WX100",
   "block.wxmod.uniden_wx500": "Uniden Bearcat WX500",
+
   "block.wxmod.sangean_cl100": "Sangean CL-100",
+
+  "block.wxmod.reecom_r1630": "Reecom R-1630A",
 
   "tooltip.shift": "Press §bSHIFT§r to learn about this radio!",
 
@@ -17,9 +24,14 @@
   "tooltip.wxmod.block.midland_wr300": "§b§oFirst introduced in 2002 alongside the WR100, \nIt would go on to be another \nvery popular radio created by Midland and \ncontained additional features than the WR100. \nAs of 2022, The Midland WR300 is still manufactured in stores.",
   "tooltip.wxmod.block.midland_wr301": "§b§oReleased sometime in the early 2010s, \nThe release of the Midland WR301 was part \nof a collaborative promotion between Midland and Mossy Oak. \nThe radio was on sale for a limited time until \nit was pulled off of shelves. The WR301 also has a \nV5 PCB which has a history of faulty tuners \nwhich means it's susceptible of breaking.",
   "tooltip.wxmod.block.midland_wr300_v0": "§b§oAlso known as 'The Lost Version', \nThe Version 0 was a concept prototype of \nthe WR300. Its existence was only known \nthrough a series of product guides packaged \nin many Midland products in the early 2000s. \nWhether or not it was sold at all or \nkept by Midland remains unknown.",
+  "tooltip.wxmod.block.midland_wr120": "§cComing Soon",
+  "tooltip.wxmod.block.midland_wr120_legacy": "§cN/A",
+  "tooltip.wxmod.block.midland_wr400": "§cComing Soon",
 
   "tooltip.wxmod.block.uniden_wx500": "§b§oThe WX500 was released \nto consumers in 2002 \naccording to it's user manual. \nIt was manufactured for only 2 years \nbetween 2002-2004, making this radio \na fairly rare find.",
   "tooltip.wxmod.block.uniden_wx100": "§b§oThe Uniden Bearcat WX100 was first created in 2000, \nthen sold to the market in 2001. It is known for it's volume \nknob on the right, it's orange LED, and \nit's siren. It is also pretty rare to obtain \n(unless you wanna pay 500 dollars for it).",
 
-  "tooltip.wxmod.block.sangean_cl100": "§b§oThe CL-100 was released in 2013, \nIt is known for it's incredible ability to \nreach radio stations from far away making \nit reliable for DXing."
+  "tooltip.wxmod.block.sangean_cl100": "§b§oThe CL-100 was released in 2013, \nIt is known for it's incredible ability to \nreach radio stations from far away making \nit reliable for DXing.",
+
+  "tooltip.wxmod.block.reecom_r1630": "§cComing Soon"
 }

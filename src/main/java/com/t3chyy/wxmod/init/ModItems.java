@@ -1,4 +1,4 @@
-package com.t3chyy.wxmod.item;
+package com.t3chyy.wxmod.init;
 
 import com.t3chyy.wxmod.WXMod;
 import net.minecraft.world.item.CreativeModeTab;

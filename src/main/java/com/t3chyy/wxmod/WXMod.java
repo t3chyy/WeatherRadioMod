@@ -1,11 +1,11 @@
 package com.t3chyy.wxmod;
 
 import com.mojang.logging.LogUtils;
-import com.t3chyy.wxmod.block.ModBlocks;
-import com.t3chyy.wxmod.item.ModItems;
+import com.t3chyy.wxmod.init.ModRadios;
+import com.t3chyy.wxmod.init.ModItems;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
-import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -16,12 +16,16 @@ import org.slf4j.Logger;
 
 /*
     -----The Weather Radio Mod (WXmod)-----
-    Created by ht
+    Created by t3chyy
 
-    https://github.com/httpswebsite/WeatherRadioMod
-    https://twitter.com/httpswebs1te
+    https://github.com/t3chyy/WeatherRadioMod
+    https://twitter.com/t3chyyofficial
 
-    October 19th, 2022
+  ~ The v1.1 update was created to make the mod feel more complete for not only myself but for
+    everyone.
+
+    First created: October 19th, 2022
+    Last updated: May 6th, 2023
     ---------------------------------------
  */
 
@@ -38,7 +42,7 @@ public class WXMod
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
+        ModRadios.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
@@ -48,19 +52,25 @@ public class WXMod
     private void setup(final FMLCommonSetupEvent event)
     {
         // some preinit code
-        LOGGER.info("WXmod v1.1 coded by ht");
+        LOGGER.info("WXmod v2 by t3chyy, the final iteration");
+        LOGGER.info("#t3chyyiscool");
     }
 
     private void clientSetup(final FMLClientSetupEvent event)
     {
         //register render type
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR100.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR100BNS.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR300.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR301.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX100.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.UNIDEN_WX500.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.SANGEAN_CL100.get(), RenderType.translucent());
-        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MIDLAND_WR300_V0.get(), RenderType.translucent());
+        //this is awful to look at
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR100.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR100BNS.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR300.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR400.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR301.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR120.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR120_LEGACY.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.UNIDEN_WX100.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.UNIDEN_WX500.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.SANGEAN_CL100.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.MIDLAND_WR300_V0.get(), RenderType.translucent());
+        ItemBlockRenderTypes.setRenderLayer(ModRadios.REECOM_R1630.get(), RenderType.translucent());
     }
 }
